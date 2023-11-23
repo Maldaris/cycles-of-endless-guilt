@@ -29,7 +29,7 @@ SUBSYSTEM_DEF(communications)
 	else
 		return FALSE
 
-/datum/controller/subsystem/communications/proc/make_announcement(mob/living/user, is_silicon, input, syndicate, list/players)
+/datum/controller/subsystem/communications/proc/make_announcement(mob/living/user, is_silicon, input, syndicate, list/players, auth_id) // CYC Edit - WS Port - Make Player Announcements use logged-in name
 	if(!can_announce(user, is_silicon))
 		return FALSE
 	if(is_silicon)
@@ -40,7 +40,7 @@ SUBSYSTEM_DEF(communications)
 		if(syndicate)
 			priority_announce(html_decode(message_data["message"]), null, 'sound/misc/announce_syndi.ogg', ANNOUNCEMENT_TYPE_SYNDICATE, has_important_message = TRUE, players = players, color_override = "red")
 		else
-			priority_announce(html_decode(message_data["message"]), null, 'sound/misc/announce.ogg', ANNOUNCEMENT_TYPE_CAPTAIN, has_important_message = TRUE, players = players)
+			priority_announce(html_decode(message_data["message"]), null, 'sound/misc/announce.ogg', ANNOUNCEMENT_TYPE_CAPTAIN, has_important_message = TRUE, players = players, auth_id = auth_id)
 		COOLDOWN_START(src, nonsilicon_message_cooldown, COMMUNICATION_COOLDOWN)
 	user.log_talk(input, LOG_SAY, tag="priority announcement")
 	message_admins("[ADMIN_LOOKUPFLW(user)] has made a priority announcement.")

@@ -15,6 +15,8 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	"[FREQ_SYNDICATE]" = "syndradio",
 	"[FREQ_UPLINK]" = "syndradio",  // this probably shouldnt appear ingame
 	"[FREQ_CENTCOM]" = "centcomradio",
+	"[FREQ_SOLGOV]" = "solgovradio",		//WS Edit - SolGov Rep
+	"[FREQ_WIDEBAND]" = "widebandradio",	//WS Edit - Overmaps
 	"[FREQ_CTF_RED]" = "redteamradio",
 	"[FREQ_CTF_BLUE]" = "blueteamradio",
 	"[FREQ_CTF_GREEN]" = "greenteamradio",

@@ -145,6 +145,11 @@
 /// Access to the Lawyer's office.
 #define ACCESS_LAWYER "lawyer"
 
+// CYC Start - Port SolGov
+// SGR Office
+#define ACCESS_SOLGOV  "solgov_rep_office"
+// CYC End - Port Solgov
+
 /// - - - AWAY MISSIONS - - -
 /*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict
 	or a 2000 year-old temple? */

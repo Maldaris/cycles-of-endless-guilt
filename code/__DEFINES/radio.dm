@@ -50,6 +50,14 @@
 #define RADIO_KEY_UPLINK "z"
 #define RADIO_TOKEN_UPLINK ":z"
 
+//WS Begin - SGR, Overmaps
+#define RADIO_CHANNEL_SOLGOV "SolGov"
+#define RADIO_KEY_SOLGOV "g"
+#define RADIO_TOKEN_SOLGOV ":g"
+
+#define RADIO_CHANNEL_WIDEBAND "Wideband"
+//WS End
+
 #define RADIO_CHANNEL_CTF_RED "Red Team"
 #define RADIO_CHANNEL_CTF_BLUE "Blue Team"
 #define RADIO_CHANNEL_CTF_GREEN "Green Team"
@@ -66,6 +74,7 @@
 #define FREQ_CTF_GREEN 1219 // CTF green team comms frequency, green
 #define FREQ_CTF_YELLOW 1221 // CTF yellow team comms frequency, yellow
 #define FREQ_CENTCOM 1337 // CentCom comms frequency, gray
+#define FREQ_SOLGOV 1345 // WS Edit - SolGov comms frequency
 #define FREQ_SUPPLY 1347 // Supply comms frequency, light brown
 #define FREQ_SERVICE 1349 // Service comms frequency, green
 #define FREQ_SCIENCE 1351 // Science comms frequency, plum
@@ -93,6 +102,8 @@
 #define MIN_UNUSED_FREQ 1461 // Prevents rolling AI Private or Common
 
 #define MAX_FREQ 1489 // ------------------------------------------------------
+
+#define FREQ_WIDEBAND 1501 // WS Edit - Subspace/shuttle comms frequency
 
 #define MAX_FREE_FREQ 1599 // -------------------------------------------------
 

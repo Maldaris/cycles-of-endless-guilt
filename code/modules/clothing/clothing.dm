@@ -31,6 +31,8 @@
 	var/list/user_vars_to_edit //VARNAME = VARVALUE eg: "name" = "butts"
 	var/list/user_vars_remembered //Auto built by the above + dropped() + equipped()
 
+	var/pocket_storage_component_path // WS Edit - Accessories as Containers
+
 	/// Trait modification, lazylist of traits to add/take away, on equipment/drop in the correct slot
 	var/list/clothing_traits
 
@@ -60,6 +62,8 @@
 	if(can_be_bloody && ((body_parts_covered & FEET) || (flags_inv & HIDESHOES)))
 		LoadComponent(/datum/component/bloodysoles)
 	AddElement(/datum/element/attack_equip)
+	if (ispath(pocket_storage_component_path))
+		LoadComponent(pocket_storage_component_path)
 	if(!icon_state)
 		item_flags |= ABSTRACT
 

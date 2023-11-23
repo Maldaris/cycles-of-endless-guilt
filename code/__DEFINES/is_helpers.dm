@@ -117,6 +117,12 @@ GLOBAL_LIST_INIT(turfs_pass_meteor, typecacheof(list(
 #define isandroid(A) (is_species(A, /datum/species/android))
 #define isnightmare(A) (is_species(A, /datum/species/shadow/nightmare))
 
+// WS Begin - Custom Species
+
+#define isspiderperson(A) (is_species(A, /datum/species/spider))
+
+// WS End - Custom Species
+
 
 //More carbon mobs
 #define isalien(A) (istype(A, /mob/living/carbon/alien))

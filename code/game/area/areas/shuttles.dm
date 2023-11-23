@@ -108,6 +108,18 @@
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
+// WS Start - Custom Shuttles
+
+/area/shuttle/custom
+	name = "Custom player shuttle"
+	area_flags = BLOBS_ALLOWED | CULT_PERMITTED
+	flags_1 = CAN_BE_DIRTY_1
+
+/area/shuttle/custom/powered
+	name = "Custom Powered player shuttle"
+	requires_power = FALSE
+
+// WS End - Custom Shuttles
 
 /area/shuttle/arrival
 	name = "Arrival Shuttle"

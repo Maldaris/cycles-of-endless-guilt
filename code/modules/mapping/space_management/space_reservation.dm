@@ -28,6 +28,11 @@
 	/// The turf type the reservation is initially made with
 	var/turf_type = /turf/open/space
 
+	// WS Start - Overmap Generation (Area Setting on Reservation)
+	/// The area type the reservation is initially made with
+	var/area/area_type = /area/space
+	// WS End - Overmap Generation (Area Setting on Reservation)
+
 	///Distance away from the cordon where we can put a "sort-cordon" and run some extra code (see make_repel). 0 makes nothing happen
 	var/pre_cordon_distance = 0
 
@@ -178,6 +183,14 @@
 		SSmapping.used_turfs[T] = src
 		T.turf_flags = (T.turf_flags | RESERVATION_TURF) & ~UNUSED_RESERVATION_TURF
 		T.ChangeTurf(turf_type, turf_type)
+		// WS Start - Overmap Generation (Area Setting on Reservation)
+		if(area_type)
+			if(ispath(area_type))
+				area_type = new area_type
+			var/area/old_area = get_area(T)
+			area_type.contents += T
+			T.change_area(old_area, area_type)
+		// WS End - Overmap Generation (Area Setting on Reservation)
 
 	bottom_left_turfs += BL
 	top_right_turfs += TR

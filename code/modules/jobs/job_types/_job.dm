@@ -2,6 +2,9 @@
 	/// The name of the job , used for preferences, bans and more. Make sure you know what you're doing before changing this.
 	var/title = "NOPE"
 
+	/// CYC Edit - WS Port - Alternative Job Titles
+	var/display_title
+
 	/// The description of the job, used for preferences menu.
 	/// Keep it short and useful. Avoid in-jokes, these are for new players.
 	var/description
@@ -320,6 +323,13 @@
 	var/satchel = /obj/item/storage/backpack/satchel
 	var/duffelbag = /obj/item/storage/backpack/duffelbag
 	var/messenger = /obj/item/storage/backpack/messenger
+
+	// WS Start - Extra Job Equipement
+	var/alt_uniform
+
+	var/alt_suit = null
+	var/dcoat = /obj/item/clothing/suit/hooded/wintercoat
+	// WS End - Extra Job
 
 	var/pda_slot = ITEM_SLOT_BELT
 

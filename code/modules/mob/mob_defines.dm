@@ -86,6 +86,10 @@
 	/// Tick time the mob can next move
 	var/next_move = null
 
+	// WS Start - Shuttle Creation
+	var/create_area_cooldown
+	// WS End - Shuttle Creation
+
 	/// What is the mobs real name (name is overridden for disguises etc)
 	var/real_name = null
 

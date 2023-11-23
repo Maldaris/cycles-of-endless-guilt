@@ -134,6 +134,8 @@
 		playsound(src, 'sound/machines/terminal_alert.ogg', 50, FALSE)
 		return TRUE
 
+	SSshuttle.shuttle_purchase_requirements_met |= SHUTTLE_UNLOCK_EMAGGED //WS Edit - Makes shuttles from Emag list purchaseable
+
 	if(obj_flags & EMAGGED)
 		return FALSE
 	obj_flags |= EMAGGED
@@ -748,7 +750,7 @@
 		)
 
 	var/list/players = get_communication_players()
-	SScommunications.make_announcement(user, is_ai, input, syndicate || (obj_flags & EMAGGED), players)
+	SScommunications.make_announcement(user, is_ai, input, syndicate || (obj_flags & EMAGGED), players, authorize_name) // CYC Edit - WS Port - Make Player Announcements use logged-in name
 	deadchat_broadcast(" made a priority announcement from [span_name("[get_area_name(usr, TRUE)]")].", span_name("[user.real_name]"), user, message_type=DEADCHAT_ANNOUNCEMENT)
 
 /obj/machinery/computer/communications/proc/get_communication_players()

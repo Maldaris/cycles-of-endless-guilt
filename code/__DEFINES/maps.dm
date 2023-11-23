@@ -82,6 +82,8 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define ZTRAIT_LAVA_RUINS "Lava Ruins"
 #define ZTRAIT_ICE_RUINS "Ice Ruins"
 #define ZTRAIT_ICE_RUINS_UNDERGROUND "Ice Ruins Underground"
+#define ZTRAIT_SAND_RUINS "Sand Ruins" //WS edit - Whitesands
+#define ZTRAIT_JUNGLE_RUINS "Jungle Ruins" // WS Edit - Whitesands
 #define ZTRAIT_ISOLATED_RUINS "Isolated Ruins" //Placing ruins on z levels with this trait will use turf reservation instead of usual placement.
 
 // boolean - weather types that occur on the level

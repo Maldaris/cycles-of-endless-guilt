@@ -699,11 +699,16 @@ GLOBAL_LIST_EMPTY(the_station_areas)
 	z_reservation = null,
 	reservation_type = /datum/turf_reservation,
 	turf_type_override = null,
+	area_type_override = null, // WS Edit - Overmap Generation
 )
 	UNTIL((!z_reservation || reservation_ready["[z_reservation]"]) && !clearing_reserved_turfs)
 	var/datum/turf_reservation/reserve = new reservation_type
 	if(!isnull(turf_type_override))
 		reserve.turf_type = turf_type_override
+	// WS Start - Overmap generation
+	if(!isnull(area_type_override))
+		reserve.area_type = area_type_override
+	// WS End - Overmap generation
 	if(!z_reservation)
 		for(var/i in levels_by_trait(ZTRAIT_RESERVED))
 			if(reserve.reserve(width, height, z_size, i))

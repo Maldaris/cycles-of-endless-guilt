@@ -402,8 +402,13 @@
 	if(!(character.mind.assigned_role.job_flags & JOB_ANNOUNCE_ARRIVAL))
 		return
 
-	var/obj/machinery/announcement_system/announcer = pick(GLOB.announcement_systems)
-	announcer.announce("ARRIVAL", character.real_name, rank, list()) //make the list empty to make it announce it in common
+	// //WS begin - Alternate job titles
+	// var/displayed_rank = rank
+	// if(character.client && character.client.prefs && character.client.prefs.read_preference(/datum/preference/alt_titles_preferences))
+	// 	displayed_rank = character.client.prefs.alt_titles_preferences[rank]
+	// var/obj/machinery/announcement_system/announcer = pick(GLOB.announcement_systems)
+	// announcer.announce("ARRIVAL", character.real_name, displayed_rank, list()) //make the list empty to make it announce it in common
+	// //WS end
 
 ///Check if the turf pressure allows specialized equipment to work
 /proc/lavaland_equipment_pressure_check(turf/turf_to_check)

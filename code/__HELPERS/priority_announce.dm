@@ -36,8 +36,9 @@
  * * players - a list of all players to send the message to. defaults to all players (not including new players)
  * * encode_title - if TRUE, the title will be HTML encoded
  * * encode_text - if TRUE, the text will be HTML encoded
+ * * auth_id - Optional, logged in name of the user announcing the message on a Communications Console
  */
-/proc/priority_announce(text, title = "", sound, type, sender_override, has_important_message = FALSE, list/mob/players = GLOB.player_list, encode_title = TRUE, encode_text = TRUE, color_override)
+/proc/priority_announce(text, title = "", sound, type, sender_override, has_important_message = FALSE, list/mob/players = GLOB.player_list, encode_title = TRUE, encode_text = TRUE, color_override, auth_id)
 	if(!text)
 		return
 
@@ -76,6 +77,11 @@
 		announcement_strings += MAJOR_ANNOUNCEMENT_TEXT(SSstation.announcer.custom_alert_message)
 	else
 		announcement_strings += MAJOR_ANNOUNCEMENT_TEXT(text)
+
+    // CYC Start - WS Port - Make Player Announcements use logged-in name
+	if (auth_id)
+		announcement_strings += MAJOR_ANNOUNCEMENT_TEXT("-[auth_id]")
+	// CYC End - WS Port - Make Player Announcements use logged-in name
 
 	var/finalized_announcement
 	if(color_override)

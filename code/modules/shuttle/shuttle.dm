@@ -492,6 +492,18 @@
 	///List of shuttle events that can run or are running
 	var/list/datum/shuttle_event/event_list = list()
 
+	// WS Start - Overmap
+
+	var/engine_coeff = 1
+	var/current_engines = 0
+	var/initial_engines = 0
+	var/list/engine_list = list()
+
+	///The linked overmap object, if there is one
+	var/obj/structure/overmap/ship/simulated/current_ship
+
+	// WS End - Overmap
+
 #define WORLDMAXX_CUTOFF (world.maxx + 1)
 #define WORLDMAXY_CUTOFF (world.maxx + 1)
 /**

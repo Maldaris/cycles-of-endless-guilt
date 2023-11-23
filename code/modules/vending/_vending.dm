@@ -1724,6 +1724,7 @@
 	machine_name = "Custom Vendor"
 	icon_state = "refill_custom"
 	custom_premium_price = PAYCHECK_CREW
+	custom_materials = list(/datum/material/iron = 5000, /datum/material/glass = 2000) // WS Edit - Item Materials
 
 /obj/machinery/vending/custom/greed //name and like decided by the spawn
 	icon_state = "greed"

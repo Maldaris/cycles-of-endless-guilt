@@ -386,7 +386,9 @@
 	return ..()
 
 /obj/machinery/mineral/ore_redemption/update_icon_state()
-	icon_state = "[initial(icon_state)][powered() ? null : "-off"]"
+    // CYC Start - Directional ORM sprites port
+	icon_state = "[initial(icon_state)][powered() ? panel_open ? '-open' :  null : "-off"]"
+	// CYC End - Directional ORM sprites port
 	return ..()
 
 /obj/machinery/mineral/ore_redemption/update_overlays()

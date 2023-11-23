@@ -88,6 +88,14 @@ GLOBAL_LIST_INIT(typecache_powerfailure_safe_areas, typecacheof(/area/station/en
 		/area/space,
 		))
 
+	// WS Start - Custom Shuttles
+	if(creator)
+		if(creator.create_area_cooldown >= world.time)
+			to_chat(creator, "<span class='warning'>You're trying to create a new area a little too fast.</span>")
+			return
+		creator.create_area_cooldown = world.time + 10
+	// WS End - Custom Shuttles
+
 	var/error = ""
 	var/list/turfs = detect_room(get_turf(creator), area_or_turf_fail_types, BP_MAX_ROOM_SIZE*2)
 	var/turf_count = length(turfs)
