@@ -105,12 +105,12 @@
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "cI" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/sink/directional/west,
 /turf/open/floor/plating/snowed/icemoon,
 /area/ruin/powered/lizard_gas)
 "dd" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on,
 /turf/open/floor/iron,
@@ -125,7 +125,7 @@
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "eF" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
 /obj/structure/sign/poster/fluff/lizards_gas_power/directional/west,
 /obj/item/vending_refill/cigarette,
@@ -162,7 +162,7 @@
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/ruin/powered/lizard_gas)
 "gm" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /obj/structure/sign/poster/official/midtown_slice/directional/east,
 /obj/item/food/taco{
@@ -193,12 +193,12 @@
 /turf/open/floor/plating,
 /area/ruin/powered/lizard_gas)
 "jD" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
 /turf/open/floor/plating/snowed/icemoon,
 /area/ruin/powered/lizard_gas)
 "jQ" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "kc" = (
@@ -238,7 +238,7 @@
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "ma" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/machinery/duct,
@@ -252,7 +252,7 @@
 /turf/closed/wall,
 /area/ruin/powered/lizard_gas)
 "oy" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /obj/effect/spawner/random/entertainment/cigarette_pack,
 /obj/effect/spawner/random/entertainment/cigarette_pack,
@@ -263,7 +263,7 @@
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "pL" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /obj/machinery/duct,
@@ -367,7 +367,7 @@
 /turf/open/floor/plating,
 /area/ruin/powered/lizard_gas)
 "xK" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/powered/lizard_gas)
 "xN" = (
@@ -437,7 +437,7 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/ruin/powered/lizard_gas)
 "FP" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/machinery/light/cold/directional/north,
@@ -457,7 +457,7 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/powered/lizard_gas)
 "HI" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
 	dir = 8
 	},
@@ -515,7 +515,7 @@
 /turf/open/floor/iron,
 /area/ruin/powered/lizard_gas)
 "Py" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/machinery/coffeemaker,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general,
@@ -575,7 +575,7 @@
 /turf/open/floor/plating,
 /area/ruin/powered/lizard_gas)
 "RC" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/machinery/power/terminal,
 /obj/effect/mapping_helpers/apc/full_charge,
@@ -642,7 +642,7 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/ruin/powered/lizard_gas)
 "WG" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/structure/rack,
 /obj/item/reagent_containers/condiment/yoghurt{

@@ -51,7 +51,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 /datum/species/spider
 	name = "Arachnid"
 	id = "rachnid"
-	sexes = 0
+	sexes = FALSE
 	inherent_traits  = list(TRAIT_NO_UNDERWEAR, TRAIT_WEB_SURFER)
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BUG
 	mutant_bodyparts = list("spider_legs", "spider_spinneret", "spider_mandibles")
@@ -60,8 +60,8 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	// miss_sound = 'sound/weapons/slashmiss.ogg'
 	meat = /obj/item/food/meat/slab/human/mutant/spider
 
-	mutanteyes = /obj/item/organ/eyes/night_vision/spider
-	mutanttongue = /obj/item/organ/tongue/spider
+	mutanteyes = /obj/item/organ/internal/eyes/night_vision/spider
+	mutanttongue =	/obj/item/organ/internal/tongue/spider
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	species_language_holder = /datum/language_holder/spider
 	var/web_cooldown = 30
@@ -99,11 +99,6 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	if(chem.type == /datum/reagent/toxin/pestkiller)
 		H.adjustToxLoss(3)
 		H.reagents.remove_reagent(chem.type, REAGENTS_METABOLISM)
-
-/datum/species/spider/check_species_weakness(obj/item/weapon, mob/living/attacker)
-	if(istype(weapon, /obj/item/melee/flyswatter))
-		return 9 //flyswatters deal 10x damage to spiders
-	return 0
 
 /mob/living/carbon/human/species/spider
 	race = /datum/species/spider

@@ -11,7 +11,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "au" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21,16 +21,16 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "aF" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "aU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "aX" = (
 /obj/structure/bed,
@@ -39,7 +39,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "aY" = (
 /obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "bn" = (
 /obj/machinery/door/airlock/vault,
@@ -50,7 +50,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "bx" = (
 /obj/structure/table,
@@ -69,7 +69,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "bE" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
@@ -98,14 +98,14 @@
 "cU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "cV" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "dc" = (
 /obj/structure/table,
@@ -136,7 +136,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "dD" = (
 /obj/structure/chair/office,
@@ -167,11 +167,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ff" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "fn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -181,7 +181,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "fo" = (
 /obj/effect/turf_decal/tile/red{
@@ -190,14 +190,14 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "fv" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "fH" = (
 /obj/structure/frame/computer,
@@ -216,7 +216,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "gW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -240,7 +240,7 @@
 "hs" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "hy" = (
 /obj/structure/statue/gold/hos,
@@ -271,12 +271,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "il" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/canister/water_vapor,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "io" = (
 /obj/effect/turf_decal/number/zero,
@@ -284,7 +284,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "iY" = (
 /obj/structure/table,
@@ -294,7 +294,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "jc" = (
 /obj/structure/table,
@@ -317,13 +317,11 @@
 /area/whitesands/surface/outdoors/unexplored)
 "jo" = (
 /obj/effect/overlay/palmtree_l,
-/mob/living/simple_animal/parrot,
+/mob/living/basic/parrot,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "jt" = (
-/obj/structure/sign/poster/official/safety_report{
-	pixel_y = 32
-	},
+/obj/structure/sign/poster/official/safety_report/directional/north,
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
@@ -335,7 +333,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "jw" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
@@ -353,7 +351,7 @@
 "jR" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "kr" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -362,7 +360,7 @@
 /obj/machinery/portable_atmospherics/canister/water_vapor,
 /obj/effect/turf_decal/number,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "kD" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
@@ -395,7 +393,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "lu" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
@@ -416,7 +414,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "lF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -433,7 +431,7 @@
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "mc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -441,7 +439,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "mi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -458,7 +456,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "mr" = (
 /obj/effect/turf_decal/tile/red{
@@ -468,7 +466,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "mP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -476,7 +474,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "mQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -485,7 +483,7 @@
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "ne" = (
-/obj/item/reagent_containers/glass/bucket{
+/obj/item/reagent_containers/cup/bucket{
 	pixel_x = -2;
 	pixel_y = 3
 	},
@@ -499,10 +497,10 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ni" = (
-/obj/item/reagent_containers/food/drinks/bottle/sarsaparilla,
+/obj/item/reagent_containers/cup/glass/bottle/sarsaparilla,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "np" = (
@@ -521,7 +519,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "nE" = (
 /obj/effect/turf_decal/tile/red{
@@ -529,7 +527,7 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "nJ" = (
 /obj/effect/turf_decal/loading_area{
@@ -538,26 +536,26 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "nZ" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oo" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "op" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oq" = (
 /obj/effect/turf_decal/number{
@@ -565,7 +563,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oy" = (
 /obj/effect/turf_decal/tile/green{
@@ -574,14 +572,14 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oE" = (
 /obj/effect/turf_decal/tile/red,
@@ -590,7 +588,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "oK" = (
 /obj/structure/table,
@@ -602,7 +600,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "oT" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -613,7 +611,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "pl" = (
 /obj/structure/bed,
@@ -625,17 +623,17 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "pI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "qi" = (
 /obj/machinery/atmospherics/components/binary/volume_pump,
 /obj/effect/turf_decal/number,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "qn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -659,7 +657,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "qv" = (
 /obj/structure/table/wood/fancy,
@@ -673,20 +671,18 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "qD" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "qI" = (
 /obj/structure/closet/crate/bin,
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel,
+/obj/structure/sign/poster/official/random/directional/east,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "qK" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
@@ -698,7 +694,7 @@
 "qL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "re" = (
 /obj/structure/chair/stool,
@@ -707,14 +703,14 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "rh" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ri" = (
 /obj/structure/sink/puddle,
@@ -725,7 +721,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "rK" = (
 /obj/effect/turf_decal/tile/red{
@@ -739,10 +735,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "rX" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "sf" = (
 /obj/machinery/atmospherics/components/trinary/filter/on{
@@ -763,21 +759,21 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "sK" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "sR" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ti" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/visible,
@@ -787,12 +783,12 @@
 /obj/effect/turf_decal/dept{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "to" = (
 /obj/structure/rack,
 /obj/item/paper/pamphlet/centcom,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "tu" = (
 /obj/structure/chair/stool,
@@ -801,19 +797,19 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "tF" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor/northright{
+/obj/machinery/door/window/brigdoor/right/directional/north{
 	dir = 4;
 	name = "Warden's Desk";
 	req_access_txt = "3"
 	},
-/obj/machinery/door/window/westleft{
+/obj/machinery/door/window/left/directional/west{
 	name = "Warden's Desk"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "tI" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
@@ -833,14 +829,14 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ue" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ul" = (
 /obj/item/plant_analyzer,
@@ -856,13 +852,13 @@
 "uL" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/structure/fans/tiny,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "uO" = (
 /obj/effect/turf_decal/arrows,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "uZ" = (
 /obj/machinery/door/airlock/public/glass,
@@ -877,7 +873,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "wh" = (
 /obj/effect/turf_decal/tile/red{
@@ -889,7 +885,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "wk" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
@@ -902,7 +898,7 @@
 /obj/item/paper,
 /obj/item/pen,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "wt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -922,28 +918,28 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "wD" = (
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
-/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -963,7 +959,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "wW" = (
 /obj/machinery/hydroponics/constructable,
@@ -971,12 +967,12 @@
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "xc" = (
-/obj/item/reagent_containers/glass/bucket{
+/obj/item/reagent_containers/cup/bucket{
 	pixel_x = -2;
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "xe" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
@@ -996,20 +992,20 @@
 "xv" = (
 /obj/effect/turf_decal/number/two,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "xG" = (
-/obj/machinery/door/window/westleft,
+/obj/machinery/door/window/left/directional/west,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "xN" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "xV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1028,7 +1024,7 @@
 "yQ" = (
 /obj/item/chair/stool,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "zq" = (
 /obj/machinery/door/airlock/engineering,
@@ -1042,9 +1038,7 @@
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "zA" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "zJ" = (
@@ -1055,7 +1049,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Aj" = (
 /obj/structure/table/wood/fancy,
@@ -1064,10 +1058,10 @@
 /area/whitesands/surface/outdoors/unexplored)
 "AC" = (
 /obj/structure/closet/secure_closet/brig,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "AE" = (
-/obj/item/reagent_containers/glass/bucket{
+/obj/item/reagent_containers/cup/bucket{
 	pixel_x = -2;
 	pixel_y = 3
 	},
@@ -1085,7 +1079,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Bb" = (
 /obj/structure/chair/comfy/brown,
@@ -1103,7 +1097,7 @@
 /obj/machinery/door/airlock/public/glass,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Bz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -1123,7 +1117,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "BV" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -1153,7 +1147,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Cu" = (
 /obj/effect/turf_decal/loading_area{
@@ -1163,10 +1157,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Cw" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/r_wall,
 /area/whitesands/surface/outdoors/unexplored)
 "Dd" = (
@@ -1177,14 +1171,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Do" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Dp" = (
 /obj/structure/table,
@@ -1200,12 +1194,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/restraints/handcuffs,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Dz" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "DT" = (
 /obj/structure/chair/comfy/teal,
@@ -1221,30 +1215,28 @@
 /area/whitesands/surface/outdoors/unexplored)
 "Eb" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "En" = (
 /obj/structure/rack,
-/obj/item/reagent_containers/food/drinks/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
-/turf/open/floor/plasteel,
+/obj/structure/sign/poster/official/random/directional/east,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "EW" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Fg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1253,7 +1245,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Fn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1266,9 +1258,7 @@
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Fw" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
-	},
+/obj/structure/sign/poster/official/random/directional/west,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating,
@@ -1282,13 +1272,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "FW" = (
 /obj/structure/fluff/paper/stack{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Gu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1299,7 +1289,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "GA" = (
 /obj/structure/chair,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Hc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1313,20 +1303,18 @@
 	name = "Cell 2";
 	req_access_txt = "2"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Hs" = (
 /obj/structure/chair,
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "HH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "HJ" = (
 /obj/machinery/atmospherics/pipe/manifold/general{
@@ -1351,10 +1339,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Ij" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/r_wall/rust,
 /area/whitesands/surface/outdoors/unexplored)
 "It" = (
@@ -1373,7 +1361,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "IL" = (
 /obj/structure/chair/office{
@@ -1397,7 +1385,7 @@
 "Ja" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Jb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1407,7 +1395,7 @@
 /obj/effect/turf_decal/number{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Jv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1426,12 +1414,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "JT" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Kd" = (
 /obj/structure/bed,
@@ -1443,16 +1431,14 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "KB" = (
 /obj/machinery/door/airlock/security/glass,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Li" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
@@ -1466,7 +1452,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/item/clothing/glasses/hud/health,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "LK" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -1479,34 +1465,34 @@
 /area/whitesands/surface/outdoors/unexplored)
 "LN" = (
 /obj/structure/rack,
-/obj/item/reagent_containers/food/drinks/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/reagent_containers/food/drinks/waterbottle/large,
-/obj/item/reagent_containers/food/drinks/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "LS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Me" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "My" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "MQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -1518,18 +1504,16 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "MW" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/cup/bucket,
 /obj/effect/decal/remains/human,
 /obj/structure/fluff/beach_umbrella,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "MZ" = (
-/obj/structure/sign/poster/official/nanotrasen_logo{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/nanotrasen_logo/directional/east,
 /turf/template_noop,
 /area/template_noop)
 "Nk" = (
@@ -1542,27 +1526,27 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Nn" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "No" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "NM" = (
 /obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "NP" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "NS" = (
 /obj/effect/turf_decal/arrows,
@@ -1572,7 +1556,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "NT" = (
 /turf/closed/wall,
@@ -1585,7 +1569,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "NZ" = (
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Ok" = (
 /obj/structure/sign/poster/official/work_for_a_future,
@@ -1602,21 +1586,20 @@
 /area/whitesands/surface/outdoors/unexplored)
 "Ow" = (
 /obj/item/storage/bottles/sandblast,
-/turf/open/floor/wood{
-	icon_state = "wood-broken2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/whitesands/surface/outdoors/unexplored)
 "Oz" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "OC" = (
 /obj/effect/turf_decal/dept{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Pc" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -1632,7 +1615,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Pm" = (
 /obj/machinery/door/airlock/security/glass,
@@ -1657,7 +1640,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 9
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Py" = (
 /obj/structure/grille,
@@ -1669,7 +1652,7 @@
 	},
 /obj/effect/turf_decal/number,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Qh" = (
 /obj/machinery/door/airlock/security/glass{
@@ -1679,7 +1662,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Qq" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -1690,7 +1673,7 @@
 "Qr" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/sec/surgery,
-/obj/item/bodypart/l_leg{
+/obj/item/bodypart/leg/left{
 	pixel_y = 5
 	},
 /obj/effect/turf_decal/tile/red{
@@ -1700,19 +1683,19 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/red,
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "Qw" = (
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Qy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "QK" = (
 /obj/machinery/door/airlock/security/glass{
@@ -1722,7 +1705,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "QO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -1731,7 +1714,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "QU" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "QY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1760,7 +1743,7 @@
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Ru" = (
-/mob/living/simple_animal/crab,
+/mob/living/basic/crab,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "RH" = (
@@ -1770,7 +1753,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "RR" = (
 /obj/effect/turf_decal/tile/red{
@@ -1780,7 +1763,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "RU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -1797,7 +1780,7 @@
 "RX" = (
 /obj/machinery/computer/arcade,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Su" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -1818,17 +1801,17 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "SZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Ta" = (
 /obj/machinery/biogenerator,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Tc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1842,13 +1825,13 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Tz" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "TB" = (
 /obj/item/cultivator,
@@ -1857,7 +1840,7 @@
 	pixel_y = -11
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "TG" = (
 /obj/machinery/door/airlock/security/glass{
@@ -1869,7 +1852,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "TH" = (
 /obj/machinery/igniter/incinerator_atmos,
@@ -1883,20 +1866,20 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Ug" = (
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Up" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Uu" = (
 /obj/structure/reagent_dispensers/water_cooler,
@@ -1918,7 +1901,7 @@
 "Vc" = (
 /obj/machinery/seed_extractor,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Vr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1936,7 +1919,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Vv" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/incinerator_input{
@@ -1947,12 +1930,12 @@
 "VF" = (
 /obj/effect/turf_decal/number/one,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "VG" = (
 /obj/structure/closet/crate/large,
 /obj/structure/reagent_dispensers/watertank/high,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "VP" = (
 /obj/machinery/door/poddoor/shutters,
@@ -1977,26 +1960,24 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Ww" = (
-/obj/item/reagent_containers/glass/bucket{
+/obj/item/reagent_containers/cup/bucket{
 	pixel_x = -4;
 	pixel_y = -6
 	},
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "WD" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
 /area/whitesands/surface/outdoors/unexplored)
 "WF" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "WV" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -2013,7 +1994,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "Xg" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Xy" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
@@ -2032,7 +2013,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/white/side{
+/turf/open/floor/iron/white/side/airless{
 	dir = 4
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -2052,7 +2033,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Yt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2062,7 +2043,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "YC" = (
 /obj/structure/table,
@@ -2071,7 +2052,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "YV" = (
 /obj/effect/turf_decal/tile/red{
@@ -2087,7 +2068,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "YW" = (
 /obj/structure/table,
@@ -2098,44 +2079,44 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "YY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless/white,
+/turf/open/floor/iron/white/airless,
 /area/whitesands/surface/outdoors/unexplored)
 "Zh" = (
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Zs" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/drinks/britcup,
+/obj/item/reagent_containers/cup/glass/mug/britcup,
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Zt" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Zv" = (
 /obj/effect/turf_decal/number/zero,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ZE" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ZH" = (
 /obj/effect/overlay/palmtree_r,
@@ -2149,14 +2130,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ZV" = (
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 
 (1,1,1) = {"

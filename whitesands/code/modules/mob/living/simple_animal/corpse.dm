@@ -1,4 +1,4 @@
-/obj/effect/mob_spawn/corpse/human/solgov/infantry
+/obj/effect/mob_spawn/human/corpse/solgov/infantry
 	name = "SolGov Infantryman"
 	outfit = /datum/outfit/solgov/infantrymancorpse
 	hairstyle = "Buzzcut"
@@ -18,7 +18,7 @@
 	id = /obj/item/card/id/solgov
 	backpack_contents = null
 
-/obj/effect/mob_spawn/corpse/human/solgov/officer
+/obj/effect/mob_spawn/human/corpse/solgov/officer
 	name = "SolGov Officer"
 	outfit = /datum/outfit/solgov/officercorpse
 	hairstyle = "Buzzcut"

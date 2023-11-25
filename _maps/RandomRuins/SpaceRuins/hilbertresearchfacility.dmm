@@ -318,7 +318,7 @@
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "iP" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -487,7 +487,7 @@
 /area/template_noop)
 "ml" = (
 /obj/effect/turf_decal/stripes/red/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -587,7 +587,7 @@
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "oi" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -620,7 +620,7 @@
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "pp" = (
 /obj/effect/turf_decal/stripes/red/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -632,7 +632,7 @@
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "pC" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -878,11 +878,6 @@
 "wo" = (
 /turf/open/floor/cult,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
-"wp" = (
-/obj/structure/chair/stool/bar/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "wy" = (
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/mineral/plastitanium,
@@ -937,7 +932,7 @@
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "xU" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/light/cold/directional/south,
 /obj/effect/turf_decal/siding/thinplating_new/light{
@@ -1827,7 +1822,7 @@
 /area/ruin/space)
 "Qj" = (
 /obj/effect/turf_decal/stripes/red/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
@@ -1864,10 +1859,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/powered/hilbertresearchfacility)
-"QY" = (
-/obj/structure/chair/stool/bar/directional/east,
-/turf/open/floor/wood,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "Rg" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -2283,10 +2274,6 @@
 "YL" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/mineral/titanium/tiled/yellow,
-/area/ruin/space/has_grav/powered/hilbertresearchfacility)
-"YP" = (
-/obj/structure/chair/stool/bar/directional/north,
-/turf/open/floor/wood,
 /area/ruin/space/has_grav/powered/hilbertresearchfacility)
 "YU" = (
 /obj/machinery/light/warm/directional/west,
@@ -3224,7 +3211,7 @@ Ok
 Bo
 Bf
 eC
-wp
+Bf
 Bo
 Ok
 Dk
@@ -4470,7 +4457,7 @@ sU
 sU
 sU
 sU
-QY
+ME
 sU
 QV
 BY
@@ -4549,7 +4536,7 @@ Zk
 sU
 ba
 zM
-YP
+mc
 QV
 BY
 BY

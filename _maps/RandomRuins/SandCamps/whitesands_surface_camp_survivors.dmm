@@ -35,7 +35,7 @@
 /turf/open/floor/plating/asteroid/whitesands,
 /area/template_noop)
 "L" = (
-/obj/item/reagent_containers/food/drinks/bottle/sarsaparilla,
+/obj/item/reagent_containers/cup/glass/bottle/sarsaparilla,
 /turf/open/floor/plating/asteroid/whitesands/dried,
 /area/template_noop)
 "P" = (

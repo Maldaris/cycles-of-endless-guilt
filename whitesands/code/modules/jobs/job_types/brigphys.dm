@@ -44,7 +44,7 @@
 	name = "Brig Physician"
 	jobtype = /datum/job/brig_phys
 
-	belt = /obj/item/pda/brig_phys
+	belt = /obj/item/modular_computer/pda/medical
 	ears = /obj/item/radio/headset/headset_medsec/alt
 	uniform = /obj/item/clothing/under/rank/security/brig_phys
 	alt_uniform = /obj/item/clothing/under/rank/medical/doctor/red
@@ -54,7 +54,7 @@
 	alt_suit = /obj/item/clothing/suit/armor/vest/security/brig_phys
 	dcoat = /obj/item/clothing/suit/hooded/wintercoat/security
 	suit_store = /obj/item/flashlight/pen
-	l_hand = /obj/item/storage/firstaid/regular
+	l_hand = /obj/item/storage/medkit/regular
 	head = /obj/item/clothing/head/soft/sec/brig_phys
 	implants = list(/obj/item/implant/mindshield)
 

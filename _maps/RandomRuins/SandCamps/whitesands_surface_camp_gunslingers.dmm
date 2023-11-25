@@ -6,7 +6,7 @@
 /turf/open/floor/plating/asteroid/whitesands/dried,
 /area/template_noop)
 "s" = (
-/obj/structure/bed/roller{
+/obj/structure/bed/medical/emergency{
 	color = "#4B5320"
 	},
 /turf/open/floor/plating/asteroid/whitesands,

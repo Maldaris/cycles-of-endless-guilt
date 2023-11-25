@@ -10,17 +10,13 @@
 /obj/item/clothing/head/beret/vintage
 	name = "vintage beret"
 	desc = "A well-worn beret."
-	icon = 'icons/mob/clothing/head.dmi'
-	worn_icon = 'icons/mob/clothing/head.dmi'
-	icon_state = "vintageberet"
+	icon_state = "beret" // TODO: Replace with actual sprite.
 	dog_fashion = null
 
 /obj/item/clothing/head/beret/archaic
 	name = "archaic beret"
 	desc = "An absolutely ancient beret, allegedly worn by the first mime to ever step foot on a NanoTrasen station."
-	icon = 'icons/mob/clothing/head.dmi'
-	worn_icon = 'icons/mob/clothing/head.dmi'
-	icon_state = "archaicberet"
+	icon_state = "beret" // TODO: Replace with actual sprite.
 	dog_fashion = null
 
 /obj/item/clothing/head/beret/black
@@ -214,7 +210,7 @@
 	name = "virology beret"
 	desc = "A white beret with a green insignia in the shape of a bacteria finely threaded into it. Smells unnaturally sterile..."
 	icon_state = "beret_viro"
-	armor_type = /datum/armmor/beret_med/viro
+	armor_type = /datum/armor/beret_med/viro
 
 /datum/armor/beret_med/cmo
 	bio = 30

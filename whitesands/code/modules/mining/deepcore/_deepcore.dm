@@ -32,7 +32,7 @@
 		if(amt)
 			to_chat(user, "<span class='notice'>It has [amt] units of unrefined [lowertext(M.name)] stored.</span>")
 
-/datum/component/material_container/crude/OnAttackBy(datum/source, obj/item/I, mob/living/user)
+/datum/component/material_container/crude/on_attackby(datum/source, obj/item/weapon, mob/living/user)
 	return //This container is specifically for ore, so no user filling.
 
 /*\

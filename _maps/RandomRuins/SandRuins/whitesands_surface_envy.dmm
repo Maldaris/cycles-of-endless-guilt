@@ -37,9 +37,8 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered)
 "h" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "i" = (
 /turf/open/floor/plating,
@@ -51,9 +50,8 @@
 	icon_state = "mirror_broke";
 	pixel_x = -28
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "k" = (
 /obj/structure/mirror{
@@ -62,9 +60,8 @@
 	icon_state = "mirror_broke";
 	pixel_x = 28
 	},
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/ruin/unpowered)
 "l" = (
 /obj/machinery/door/airlock/hatch,

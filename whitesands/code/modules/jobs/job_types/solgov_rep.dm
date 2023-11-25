@@ -20,7 +20,7 @@ SolGov Representative
 	name = "SolGov Representative"
 	jobtype = /datum/job/solgov
 
-	id = /obj/item/card/id/silver
+	id = /obj/item/card/id/advanced/silver
 	head = /obj/item/clothing/head/solgov
 	uniform = /obj/item/clothing/under/solgov/formal
 	accessory = /obj/item/clothing/accessory/waistcoat/solgov
@@ -29,7 +29,7 @@ SolGov Representative
 	shoes = /obj/item/clothing/shoes/laceup
 	ears = /obj/item/radio/headset/solgov
 	glasses = /obj/item/clothing/glasses/sunglasses
-	belt = /obj/item/pda/solgov
+	belt = /obj/item/modular_computer/pda/solgov
 
 	implants = list(/obj/item/implant/mindshield)
 
@@ -38,5 +38,5 @@ SolGov Representative
 	duffelbag = /obj/item/storage/backpack/duffelbag/captain
 
 	backpack_contents = list(
-		/obj/item/kitchen/knife/letter_opener = 1
+		/obj/item/knife/letter_opener = 1
 	)

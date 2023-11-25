@@ -27,15 +27,15 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "cl" = (
-/obj/item/clothing/head/hardhat/red{
+/obj/item/clothing/head/utility/hardhat/red{
 	desc = "A piece of headgear used in dangerous working conditions to protect the head. On closer inspection it apears to be a regular hardhat painted red.";
 	name = "syndicate hardhat"
 	},
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -53,15 +53,15 @@
 /obj/structure/safe/floor,
 /obj/item/clothing/suit/space/hardsuit/syndi,
 /obj/item/documents/syndicate,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "cO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -90,22 +90,22 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "fz" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "fB" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -122,8 +122,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "gW" = (
 /obj/item/circuitboard/machine/sleeper,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -131,15 +131,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
 	dir = 10
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "hs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -161,8 +161,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "iz" = (
 /obj/structure/chair/comfy,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -170,8 +170,8 @@
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -201,11 +201,10 @@
 /turf/closed/mineral/random/whitesands,
 /area/template_noop)
 "mC" = (
-/obj/structure/window/plasma/reinforced/plastitanium/unanchored,
+/obj/structure/window/reinforced/plasma/plastitanium/unanchored,
 /obj/machinery/atmospherics/pipe/simple/scrubbers,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "nI" = (
 /obj/machinery/suit_storage_unit{
@@ -217,7 +216,7 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "nJ" = (
-/mob/living/simple_animal/hostile/syndicate/ranged/space,
+/mob/living/basic/trooper/syndicate/ranged/space,
 /turf/open/floor/plating{
 	initial_gas_mix = "ws_atmos"
 	},
@@ -246,8 +245,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -264,16 +263,16 @@
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "qv" = (
-/mob/living/simple_animal/hostile/syndicate/ranged/space/stormtrooper,
+/mob/living/basic/trooper/syndicate/ranged/space/stormtrooper,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "qN" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -283,9 +282,8 @@
 /obj/item/stock_parts/capacitor,
 /obj/item/stack/cable_coil/cut/blue,
 /obj/item/stock_parts/cell/empty,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "sC" = (
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
@@ -297,8 +295,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "sI" = (
 /obj/effect/turf_decal/delivery,
-/obj/machinery/portable_atmospherics/canister/toxins,
-/turf/open/floor/plasteel/dark,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "sS" = (
 /obj/effect/turf_decal/stripes/white{
@@ -309,35 +307,34 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "tw" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "ue" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "uW" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "ve" = (
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "vl" = (
-/obj/structure/window/plasma/reinforced/plastitanium/unanchored,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/structure/window/reinforced/plasma/plastitanium/unanchored,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "vJ" = (
 /obj/machinery/door/airlock/hatch,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "vN" = (
 /obj/effect/turf_decal/stripes/white{
@@ -352,8 +349,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "vS" = (
 /obj/item/stack/sheet/metal,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -384,8 +381,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "xZ" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -396,8 +393,8 @@
 "yV" = (
 /obj/structure/frame/machine,
 /obj/item/circuitboard/machine/sleeper,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -410,7 +407,7 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "Ab" = (
-/mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space,
+/mob/living/basic/trooper/syndicate/ranged/shotgun/space,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "Aj" = (
@@ -425,11 +422,11 @@
 /area/whitesands/surface/outdoors/unexplored)
 "AF" = (
 /obj/effect/turf_decal/loading_area/red,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Ba" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
 	dir = 6
@@ -439,9 +436,9 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "Bk" = (
-/mob/living/simple_animal/hostile/syndicate/ranged/smg/space,
+/mob/living/basic/trooper/syndicate/ranged/smg/space,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg2";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -449,8 +446,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
 	dir = 5
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -471,14 +468,14 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "DE" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -501,7 +498,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "EG" = (
 /obj/effect/turf_decal/tile/blue,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "EJ" = (
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
@@ -529,12 +526,12 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Fz" = (
 /obj/machinery/portable_atmospherics/scrubber,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -559,8 +556,8 @@
 "Gu" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -568,16 +565,16 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 9
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "GV" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -612,8 +609,8 @@
 	pixel_x = 2;
 	pixel_y = -2
 	},
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -636,8 +633,8 @@
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 10
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -645,8 +642,8 @@
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -658,7 +655,7 @@
 /area/whitesands/surface/outdoors/unexplored)
 "Mm" = (
 /obj/effect/turf_decal/radiation,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Mx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers{
@@ -701,9 +698,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "NM" = (
 /obj/machinery/power/smes,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Oe" = (
 /obj/machinery/atmospherics/components/binary/pump,
@@ -716,23 +712,22 @@
 /area/whitesands/surface/outdoors/unexplored)
 "ON" = (
 /obj/machinery/power/smes,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Pm" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "RE" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -746,8 +741,8 @@
 	info = "Well, we failed. The undoable has been done. We were taken out. The great Starfury is stuck in orbit, and many of our systems are damaged. There is no other choice but to evacuate. However, me and a group of talented indviduals will go with me. I will activate the hyperdrive, one last time to scuttle the ship before Nanotrasen can get their grubby little hands on it, on the planet of our greatest victory.  If you are worried about me, I have my tegu plushie and all i need to survive for a year. Men and women, its been a honour.";
 	name = "Starfury Status Report - January 15th, 2501"
 	},
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -762,7 +757,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Tt" = (
 /turf/open/floor/plating/asteroid/whitesands/dried,
@@ -773,27 +768,19 @@
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
-"Uc" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg2";
-	initial_gas_mix = "ws_atmos"
-	},
-/area/whitesands/surface/outdoors/unexplored)
 "Uv" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Va" = (
 /turf/closed/mineral/random/whitesands,
 /area/whitesands/surface/outdoors/unexplored)
 "Vc" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Vv" = (
 /obj/machinery/atmospherics/pipe/manifold/cyan/visible{
@@ -829,8 +816,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "We" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -841,8 +828,8 @@
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "XV" = (
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -861,15 +848,15 @@
 "YL" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/item/pipe_dispenser,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
 "ZJ" = (
 /obj/effect/decal/cleanable/ash/large,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating{
-	icon_state = "panelscorched";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -880,8 +867,8 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating{
-	icon_state = "platingdmg1";
 	initial_gas_mix = "ws_atmos"
 	},
 /area/whitesands/surface/outdoors/unexplored)
@@ -1016,7 +1003,7 @@ sS
 sS
 GV
 EJ
-Uc
+ve
 Va
 Va
 Va
@@ -1028,7 +1015,7 @@ Va
 Va
 Va
 Va
-Uc
+ve
 Kw
 XV
 Mm
@@ -1106,7 +1093,7 @@ Va
 Va
 Wc
 Wc
-Uc
+ve
 Kw
 Wc
 Dn
@@ -1134,7 +1121,7 @@ Va
 Va
 Va
 Kw
-Uc
+ve
 cs
 Fw
 fy
@@ -1163,7 +1150,7 @@ Va
 EM
 FD
 Wc
-Uc
+ve
 Tm
 Wc
 XV
@@ -1301,7 +1288,7 @@ Va
 Kw
 Kw
 xc
-Uc
+ve
 OI
 Wc
 Wc

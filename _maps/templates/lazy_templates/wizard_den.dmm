@@ -83,7 +83,7 @@
 /obj/vehicle/ridden/scooter/skateboard{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "fX" = (
@@ -212,7 +212,7 @@
 	max_charges = 0;
 	name = "wand of emergency engine ignition"
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "nc" = (
@@ -239,7 +239,7 @@
 	pixel_x = 8
 	},
 /obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "om" = (
@@ -285,7 +285,7 @@
 /area/centcom/wizard_station)
 "pa" = (
 /obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "pq" = (
@@ -432,7 +432,7 @@
 /obj/item/pen{
 	pixel_x = -5
 	},
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/coin/antagtoken{
 	pixel_x = -9;
 	pixel_y = 5
@@ -450,7 +450,7 @@
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "wY" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "xc" = (
@@ -828,7 +828,7 @@
 /obj/structure/closet/crate,
 /obj/item/staff/tape,
 /obj/effect/spawner/random/exotic/languagebook,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/storage/crayons,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
@@ -891,7 +891,7 @@
 /obj/item/bodypart/head/skeleton,
 /obj/item/food/meat/slab/human/mutant/skeleton,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "Xt" = (
@@ -913,7 +913,7 @@
 /area/centcom/wizard_station)
 "Ya" = (
 /obj/structure/filingcabinet,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/cult,
 /area/centcom/wizard_station)
 "Yp" = (

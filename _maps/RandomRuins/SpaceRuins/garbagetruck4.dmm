@@ -36,7 +36,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "cq" = (
-/obj/machinery/light/warm,
+/obj/machinery/light/warm/directional/south,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/toystore)
@@ -230,7 +230,7 @@
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "sw" = (
 /obj/effect/decal/cleanable/glass/plastitanium/screws,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/cardboard_cutout,
 /obj/item/clothing/neck/tie/horrible,
 /turf/open/floor/plating,
@@ -309,7 +309,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "wu" = (
-/obj/machinery/airalarm{
+/obj/machinery/airalarm/directional/north{
 	pixel_y = 25
 	},
 /obj/structure/cable,
@@ -488,10 +488,6 @@
 /obj/effect/spawner/random/entertainment/plushie,
 /turf/open/space/basic,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"yS" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
 "zs" = (
 /obj/machinery/computer/terminal{
 	content = list("Property of Spinward-Upsilon Sanitation Department. Authorised employees only.");
@@ -606,7 +602,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "IQ" = (
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/pile,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
@@ -617,7 +613,7 @@
 "Ja" = (
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/decal/cleanable/plastic,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/card/cardboard,
 /obj/item/broken_bottle,
 /obj/item/cardpack/resin,
@@ -645,13 +641,12 @@
 	pixel_x = 8;
 	pixel_y = 8
 	},
-/obj/machinery/light/warm,
-/obj/machinery/power/apc{
-	cell_type = /obj/item/stock_parts/cell/lead;
-	locked = 0;
-	pixel_y = -25;
-	start_charge = 0
+/obj/machinery/light/warm/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south{
+	cell_type = /obj/item/stock_parts/cell/lead
 	},
+/obj/effect/mapping_helpers/apc/no_charge,
+/obj/effect/mapping_helpers/apc/unlocked,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/toystore)
@@ -1091,7 +1086,7 @@ BK
 it
 Sj
 yb
-yS
+IS
 vz
 MK
 kz

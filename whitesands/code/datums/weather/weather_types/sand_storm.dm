@@ -21,7 +21,7 @@
 
 	immunity_type = TRAIT_SANDSTORM_IMMUNE
 
-/datum/weather/ash_storm/sand_storm/is_ash_immune(atom/L)
+/datum/weather/ash_storm/sand_storm/can_weather_act(mob/living/L)
 	while (L && !isturf(L))
 		if(ismecha(L)) //Mechs are immune
 			return TRUE
@@ -40,7 +40,7 @@
 	return FALSE //RIP you
 
 /datum/weather/ash_storm/sand_storm/weather_act(mob/living/L)
-	if(is_ash_immune(L))
+	if(!can_weather_act(L))
 		return
 	L.adjustBruteLoss(3)
 	if(!L.is_eyes_covered())

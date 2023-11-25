@@ -145,7 +145,7 @@
 /**
   * When something crosses another overmap object, add it to the nearby objects list, which are used by events and docking
   */
-/obj/structure/overmap/on_entered(atom/movable/AM, oldloc)
+/obj/structure/overmap/proc/on_entered(atom/movable/AM, oldloc)
 	if(istype(loc, /turf/) && istype(AM, /obj/structure/overmap))
 		var/obj/structure/overmap/other = AM
 		if(other == src)
@@ -156,7 +156,7 @@
 /**
   * See [/obj/structure/overmap/Crossed]
   */
-/obj/structure/overmap/on_exited(atom/movable/AM, atom/newloc)
+/obj/structure/overmap/proc/on_exited(atom/movable/AM, atom/newloc)
 	if(istype(loc, /turf/) && istype(AM, /obj/structure/overmap))
 		var/obj/structure/overmap/other = AM
 		if(other == src)

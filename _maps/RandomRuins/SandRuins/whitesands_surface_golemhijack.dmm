@@ -1,9 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "at" = (
 /obj/item/mining_scanner,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "aZ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -13,15 +12,14 @@
 	icon_state = "small"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "bW" = (
-/obj/structure/shuttle/engine/heater{
+/obj/machinery/power/shuttle_engine/heater{
 	dir = 1
 	},
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "cj" = (
@@ -40,7 +38,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "cB" = (
 /obj/effect/turf_decal/trimline/white/corner{
@@ -51,7 +49,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/mecha_part_fabricator/maint,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "cW" = (
 /obj/structure/door_assembly/door_assembly_min,
@@ -73,9 +71,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "fb" = (
 /obj/item/crowbar,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "fo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -87,22 +84,19 @@
 /turf/open/floor/mineral/plastitanium,
 /area/whitesands/surface/outdoors/unexplored)
 "hh" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "hi" = (
 /obj/item/resonator,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "ht" = (
 /obj/structure/girder/displaced,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "hJ" = (
 /obj/item/shard{
@@ -115,7 +109,7 @@
 /obj/item/light/bulb/broken,
 /obj/item/light/tube/broken,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "iE" = (
 /obj/structure/AIcore/deactivated,
@@ -131,7 +125,7 @@
 	},
 /obj/structure/table,
 /obj/item/storage/firstaid/brute,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "jw" = (
 /obj/item/bedsheet/rd/royal_cape,
@@ -154,7 +148,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "jO" = (
 /obj/item/storage/part_replacer/bluespace/tier2,
@@ -173,13 +167,12 @@
 /area/whitesands/surface/outdoors/unexplored)
 "kT" = (
 /obj/structure/girder/displaced,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "mO" = (
-/obj/structure/window/reinforced,
-/obj/structure/shuttle/engine/heater{
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/power/shuttle_engine/heater{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -202,7 +195,7 @@
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "nX" = (
 /obj/machinery/door/airlock/titanium,
@@ -238,36 +231,31 @@
 /turf/open/floor/mineral/titanium/white,
 /area/whitesands/surface/outdoors/unexplored)
 "pb" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "pC" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "pQ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "qU" = (
 /obj/structure/table,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "qY" = (
 /obj/structure/door_assembly/door_assembly_com,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "rm" = (
 /obj/structure/girder,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "rC" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -283,12 +271,12 @@
 	name = "land claim"
 	},
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "sb" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "sh" = (
 /obj/machinery/door/airlock/titanium,
@@ -316,7 +304,7 @@
 	mob_species = /datum/species/lizard/ashwalker
 	},
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "tg" = (
 /obj/item/light/bulb/broken{
@@ -328,7 +316,7 @@
 	},
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "tv" = (
 /obj/item/light/bulb/broken{
@@ -336,7 +324,7 @@
 	pixel_y = -4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "tw" = (
 /obj/item/mining_scanner{
@@ -351,9 +339,8 @@
 	pixel_y = 17
 	},
 /obj/item/mining_scanner,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "uY" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -377,9 +364,8 @@
 	icon_state = "medium"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "vI" = (
 /obj/structure/rack,
@@ -421,19 +407,17 @@
 /obj/effect/mob_spawn/human/corpse{
 	mob_species = /datum/species/golem
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "wl" = (
 /obj/machinery/washing_machine,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "ww" = (
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "wH" = (
 /obj/structure/girder,
@@ -446,7 +430,7 @@
 /turf/open/floor/mineral/titanium/white,
 /area/whitesands/surface/outdoors/unexplored)
 "xJ" = (
-/obj/structure/shuttle/engine/propulsion{
+/obj/machinery/power/shuttle_engine/propulsion{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -462,25 +446,19 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/whitesands/surface/outdoors/unexplored)
-"yc" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/whitesands/surface/outdoors/unexplored)
 "yX" = (
 /obj/item/light/bulb/broken{
 	pixel_x = 3;
 	pixel_y = -1
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "zF" = (
 /turf/template_noop,
 /area/template_noop)
 "zP" = (
-/obj/effect/spawner/structure/window/shuttle,
+/obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Al" = (
@@ -509,7 +487,7 @@
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/cut/green,
 /obj/item/circuitboard/machine/reagentgrinder,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "CL" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -525,7 +503,7 @@
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/cut/random,
 /obj/item/surgicaldrill/advanced,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "EO" = (
 /obj/effect/turf_decal/trimline/purple/line{
@@ -536,7 +514,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "EZ" = (
 /obj/machinery/door/airlock/titanium,
@@ -544,7 +522,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "FK" = (
 /obj/item/resonator,
@@ -566,7 +544,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Gm" = (
 /turf/open/floor/plating,
@@ -576,11 +554,9 @@
 /turf/open/floor/mineral/titanium/purple,
 /area/whitesands/surface/outdoors/unexplored)
 "Gs" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
+/obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/whitesands/surface/outdoors/unexplored)
 "GZ" = (
 /obj/item/shard{
@@ -593,13 +569,12 @@
 /area/whitesands/surface/outdoors/unexplored)
 "Hm" = (
 /obj/item/card/id/mining,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "HB" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "HE" = (
 /obj/machinery/cell_charger,
@@ -609,51 +584,48 @@
 "HK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Ie" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Il" = (
-/obj/machinery/shower,
+/obj/machinery/shower/directional/south,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/whitesands/surface/outdoors/unexplored)
 "IC" = (
 /turf/open/floor/mineral/titanium/purple,
 /area/whitesands/surface/outdoors/unexplored)
 "JF" = (
 /obj/machinery/door/airlock/external,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Ks" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/iron/freezer,
 /area/whitesands/surface/outdoors/unexplored)
 "Kt" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "KT" = (
 /obj/structure/rack,
 /obj/item/card/id/mining,
 /obj/item/clothing/head/hardhat/mining,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Lz" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/oil,
 /obj/item/stack/cable_coil/cut/random,
 /obj/item/clothing/suit/space/hardsuit/mining,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Mx" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -671,13 +643,12 @@
 	name = "Sacred Text of the Liberator";
 	pixel_y = -5
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Nm" = (
 /obj/machinery/door/airlock/titanium,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Nz" = (
 /turf/open/floor/plating/asteroid/whitesands,
@@ -702,7 +673,7 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Qi" = (
 /obj/item/light/bulb/broken{
@@ -719,7 +690,7 @@
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "Qr" = (
 /obj/item/shard,
@@ -731,7 +702,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "QX" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -743,7 +714,7 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Rb" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -757,7 +728,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/white/corner,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "RJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -774,9 +745,8 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "SN" = (
 /obj/item/shard{
@@ -786,9 +756,8 @@
 	icon_state = "small"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Tc" = (
 /obj/item/spear,
@@ -797,9 +766,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Um" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -810,14 +778,14 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Uz" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/whitesands/surface/outdoors/unexplored)
 "Wm" = (
 /obj/structure/frame/machine,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "Wt" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -829,13 +797,12 @@
 	},
 /obj/machinery/autolathe,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "WO" = (
 /obj/structure/door_assembly/door_assembly_com,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "Xx" = (
 /obj/structure/table,
@@ -845,9 +812,8 @@
 "XQ" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "YG" = (
 /obj/item/resonator/upgraded,
@@ -855,28 +821,26 @@
 	mob_species = /datum/species/golem
 	},
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "YN" = (
 /obj/item/light/tube/broken{
 	pixel_x = -10;
 	pixel_y = -7
 	},
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "YZ" = (
 /obj/effect/decal/cleanable/oil/streak,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 "ZD" = (
 /obj/structure/rack,
 /obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/cup/bucket,
 /obj/item/storage/bag/trash{
 	pixel_x = 6
 	},
@@ -884,9 +848,8 @@
 /area/whitesands/surface/outdoors/unexplored)
 "ZM" = (
 /obj/item/spear/bonespear,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/whitesands/surface/outdoors/unexplored)
 "ZP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -895,7 +858,7 @@
 "ZT" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/whitesands/surface/outdoors/unexplored)
 "ZY" = (
 /obj/item/light/bulb/broken{
@@ -908,7 +871,7 @@
 	},
 /obj/effect/decal/cleanable/oil/streak,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
+/turf/open/floor/iron,
 /area/whitesands/surface/outdoors/unexplored)
 
 (1,1,1) = {"
@@ -1132,9 +1095,9 @@ bb
 SN
 SN
 Ie
-yc
+pb
 Nz
-yc
+pb
 "}
 (10,1,1) = {"
 JF
@@ -1174,7 +1137,7 @@ RJ
 ZM
 RJ
 jO
-yc
+pb
 FK
 pb
 pQ

@@ -8,7 +8,7 @@
 /area/ruin/powered)
 "g" = (
 /obj/structure/table/survival_pod,
-/obj/machinery/light/small,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/asteroid/whitesands/dried,
 /area/ruin/powered)
 "i" = (
@@ -16,9 +16,7 @@
 /turf/open/floor/plating/asteroid/whitesands/dried,
 /area/ruin/powered)
 "r" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/light/small/directional/north,
 /obj/structure/bed,
 /obj/item/bedsheet/grey,
 /turf/open/floor/plating/asteroid/whitesands/dried,
@@ -32,7 +30,7 @@
 /area/ruin/powered)
 "x" = (
 /obj/structure/sink/puddle,
-/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/item/reagent_containers/cup/bucket/wooden,
 /turf/open/floor/plating/asteroid/whitesands,
 /area/ruin/powered)
 "y" = (

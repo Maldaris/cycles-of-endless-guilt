@@ -1,6 +1,6 @@
 /datum/component/material_container/proc/transfer_to_container(
-	/datum/material/mat,
-	/datum/component/material_container/T,
+	var/datum/material/mat,
+	var/datum/component/material_container/T,
 	amt = 1)
 
 	if(!istype(mat))

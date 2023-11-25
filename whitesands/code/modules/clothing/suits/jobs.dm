@@ -12,7 +12,7 @@
 	worn_icon = 'whitesands/icons/mob/clothing/suits.dmi'
 	icon_state = "trenchcoat_solgov"
 	body_parts_covered = CHEST|LEGS|ARMS
-	allowed = list(/obj/item/gun/energy, /obj/item/reagent_containers/spray/pepper, /obj/item/ammo_box, /obj/item/ammo_casing,/obj/item/melee/baton, /obj/item/restraints/handcuffs, /obj/item/flashlight/seclite, /obj/item/melee/classic_baton)
+	allowed = list(/obj/item/gun/energy, /obj/item/reagent_containers/spray/pepper, /obj/item/ammo_box, /obj/item/ammo_casing,/obj/item/melee/baton, /obj/item/restraints/handcuffs, /obj/item/flashlight/seclite, /obj/item/melee/baton)
 	armor_type = /datum/armor/solgov_trenchcoat
 	cold_protection = CHEST|LEGS|ARMS
 	heat_protection = CHEST|LEGS|ARMS
@@ -68,7 +68,7 @@
 	hoodtype = /obj/item/clothing/head/hooded/enginseer
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
 	flags_inv = HIDESHOES|HIDEJUMPSUIT|HIDEGLOVES
-	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/gun, /obj/item/melee, /obj/item/nullrod, /obj/item/radio, /obj/item/storage/book)
+	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/gun, /obj/item/melee, /obj/item/nullrod, /obj/item/radio, /obj/item/book)
 
 /obj/item/clothing/head/hooded/enginseer
 	name = "enginseer's hood"
