@@ -1,0 +1,1 @@
+#define COLOR_SOLGOV "#3A3E64"

@@ -10,10 +10,11 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 
 /obj/item/shuttle_creator
 	name = "Rapid Shuttle Designator"
-	icon = 'icons/obj/tools.dmi'
+	icon = 'whitesands/icons/obj/tools.dmi'
 	icon_state = "rsd"
-	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
+	inhand_icon_state = "ircd"
+	lefthand_file = 'whitesands/icons/mob/inhands/equipment/tools_lefthand.dmi'
+	righthand_file = 'whitesands/icons/mob/inhands/equipment/tools_righthand.dmi'
 	desc = "A device used to define the area required for custom ships. Uses bluespace crystals to create bluespace-capable ships."
 	density = FALSE
 	anchored = FALSE

@@ -330,6 +330,7 @@ SUBSYSTEM_DEF(id_access)
 	desc_by_access["[ACCESS_CENT_CAPTAIN]"] = "Code Gold"
 	desc_by_access["[ACCESS_CENT_BAR]"] = "Code Scotch"
 	desc_by_access["[ACCESS_BIT_DEN]"] = "Bitrunner Den"
+	desc_by_access["[ACCESS_SOLGOV]"] = "SolGov Representative Office" // WS Edit - Solgov Representative
 
 /**
  * Returns the access bitflags associated with any given access level.

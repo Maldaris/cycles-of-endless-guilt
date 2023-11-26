@@ -1,0 +1,1 @@
+#define SECHUD_SOLGOV_REPRESENTATIVE "hudsolgovrepresentative"

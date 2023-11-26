@@ -41,7 +41,7 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 		colors = colors.Join()
 	else if(!istext(colors))
 		CRASH("Invalid colors were given to `GetColoredIconByType()`: [colors]")
-	return configurations[type].Generate(colors)
+	return configurations[type]?.Generate(colors)
 
 /datum/controller/subsystem/processing/greyscale/proc/ParseColorString(color_string)
 	. = list()
