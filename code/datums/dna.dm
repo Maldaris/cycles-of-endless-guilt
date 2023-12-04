@@ -665,9 +665,9 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 	if (dna.features["spider_legs"])
 		dna.features["spider_legs"] = GLOB.spider_legs_list[deconstruct_block(get_uni_feature_block(features, DNA_SPIDER_LEG_BLOCK), GLOB.spider_legs_list.len)]
 	if (dna.features["spider_mandibles"])
-		dna.features["spider_mandibles"] = GLOB.spider_mandibles_list[deconstruct_block(get_uni_feature_block(features, DNA_SPIDER_MANDIBLE_BLOCK), GLOB.spider_mandibles_list)]
+		dna.features["spider_mandibles"] = GLOB.spider_mandibles_list[deconstruct_block(get_uni_feature_block(features, DNA_SPIDER_MANDIBLE_BLOCK), GLOB.spider_mandibles_list.len)]
 	if (dna.features["spider_spinneret"])
-		dna.features["spider_spinneret"] = GLOB.spider_spinneret_list[deconstruct_block(get_uni_feature_block(features, DNA_SPIDER_SPINNERET_BLOCK), GLOB.spider_spinneret_list)]
+		dna.features["spider_spinneret"] = GLOB.spider_spinneret_list[deconstruct_block(get_uni_feature_block(features, DNA_SPIDER_SPINNERET_BLOCK), GLOB.spider_spinneret_list.len)]
 	// WS End - Spider People
 
 	for(var/obj/item/organ/external/external_organ in organs)

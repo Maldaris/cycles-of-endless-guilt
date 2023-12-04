@@ -1,0 +1,3 @@
+#define ORGAN_SLOT_EXTERNAL_MANDIBLES "mandibles"
+#define ORGAN_SLOT_EXTERNAL_EXTRA_LEGS "extra_legs"
+#define ORGAN_SLOT_EXTERNAL_SPINNERET "spinneret"

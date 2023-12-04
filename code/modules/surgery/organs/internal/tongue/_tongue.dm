@@ -624,6 +624,12 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	disliked_foodtypes = FRUIT | GROSS | BUGS | GORE
 	toxic_foodtypes = MEAT | RAW | SEAFOOD
 
+// WS Start - Spider People
+/obj/item/organ/internal/tongue/moth/get_possible_languages()
+	. = ..()
+	. += /datum/language/buzzwords
+// WS End - Spider People
+
 /obj/item/organ/internal/tongue/zombie
 	name = "rotting tongue"
 	desc = "Makes you speak like you're at the dentist and you just absolutely refuse to spit because you forgot to mention you were allergic to space shellfish."

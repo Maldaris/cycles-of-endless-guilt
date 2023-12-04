@@ -373,10 +373,12 @@ GLOBAL_LIST_INIT(prototype_language_holders, init_language_holder_prototypes())
 	understood_languages = list(
 		/datum/language/common = list(LANGUAGE_ATOM),
 		/datum/language/moffic = list(LANGUAGE_ATOM),
+		/datum/language/buzzwords = list(LANGUAGE_ATOM) // WS Edit - Spider People
 	)
 	spoken_languages = list(
 		/datum/language/common = list(LANGUAGE_ATOM),
 		/datum/language/moffic = list(LANGUAGE_ATOM),
+		/datum/language/buzzwords = list(LANGUAGE_ATOM) // WS Edit - Spider People
 	)
 
 /datum/language_holder/skeleton

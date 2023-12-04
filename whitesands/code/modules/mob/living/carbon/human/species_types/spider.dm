@@ -4,10 +4,21 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 /obj/item/organ/internal/eyes/night_vision/spider
 	name = "spider eyes"
 	desc = "These eyes seem to have increased sensitivity to bright light, offset by basic night vision."
-	low_light_cutoff = list(0, 15, 20)
-	medium_light_cutoff = list(0, 20, 35)
-	high_light_cutoff = list(0, 40, 50)
+	low_light_cutoff = list(35, 20, 35)
 	flash_protect = FLASH_PROTECTION_SENSITIVE
+
+// These eyes should only have setting so we can treat it as an on/off toggle instead of 3-stage.
+/obj/item/organ/internal/eyes/night_vision/ui_action_click()
+	sight_flags = initial(sight_flags)
+	switch(light_level)
+		if (FALSE)
+			color_cutoffs = low_light_cutoff.Copy()
+			light_level = TRUE
+		else
+			color_cutoffs = null
+			light_level = FALSE
+	owner.update_sight()
+
 
 /obj/item/organ/internal/tongue/spider
 	name = "inner mandible"
@@ -16,24 +27,11 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	liked_foodtypes = MEAT | RAW
 	disliked_foodtypes = FRUIT | GROSS
 	toxic_foodtypes = VEGETABLES | DAIRY | CLOTH
-	var/static/list/languages_possible_arachnid = typecacheof(list(
-		/datum/language/common,
-		/datum/language/draconic,
-		/datum/language/codespeak,
-		/datum/language/monkey,
-		/datum/language/narsie,
-		/datum/language/beachbum,
-		/datum/language/aphasia,
-		/datum/language/piratespeak,
-		/datum/language/moffic,
-		/datum/language/spider,
-		/datum/language/buzzwords
-	))
 
-/obj/item/organ/internal/tongue/spider/Initialize(mapload)
+/obj/item/organ/internal/tongue/spider/get_possible_languages()
 	. = ..()
-	languages_possible = languages_possible_arachnid
-
+	. += /datum/language/spider
+	. += /datum/language/buzzwords
 
 /obj/item/food/meat/slab/human/mutant/spider
 	icon_state = "spidermeat"
@@ -48,22 +46,46 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	filling.color = "#00FFFF"
 	add_overlay(filling)
 
+/datum/language_holder/spider/arachnid
+	understood_languages = list(
+		/datum/language/common = list(LANGUAGE_ATOM),
+		/datum/language/buzzwords = list(LANGUAGE_SPECIES),
+		/datum/language/spider = list(LANGUAGE_SPECIES)
+	)
+	spoken_languages = list(
+		/datum/language/common = list(LANGUAGE_ATOM),
+		/datum/language/buzzwords = list(LANGUAGE_SPECIES),
+		/datum/language/spider = list(LANGUAGE_SPECIES)
+	)
+	blocked_languages = null
+
 /datum/species/spider
 	name = "Arachnid"
 	id = "rachnid"
 	sexes = FALSE
 	inherent_traits  = list(TRAIT_NO_UNDERWEAR, TRAIT_WEB_SURFER)
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BUG
-	mutant_bodyparts = list("spider_legs", "spider_spinneret", "spider_mandibles")
-	// attack_verb = "slash"
-	// attack_sound = 'sound/weapons/slash.ogg'
-	// miss_sound = 'sound/weapons/slashmiss.ogg'
+	external_organs = list(
+		/obj/item/organ/external/spider/mandibles = "Plain",
+		/obj/item/organ/external/spider/spinneret = "Plain",
+		/obj/item/organ/external/spider/legs = "Plain"
+	)
 	meat = /obj/item/food/meat/slab/human/mutant/spider
 
 	mutanteyes = /obj/item/organ/internal/eyes/night_vision/spider
 	mutanttongue =	/obj/item/organ/internal/tongue/spider
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
-	species_language_holder = /datum/language_holder/spider
+	species_language_holder = /datum/language_holder/spider/arachnid
+
+	bodypart_overrides = list(
+		BODY_ZONE_HEAD = /obj/item/bodypart/head/spider,
+		BODY_ZONE_CHEST = /obj/item/bodypart/chest/spider,
+		BODY_ZONE_L_ARM = /obj/item/bodypart/arm/left/spider,
+		BODY_ZONE_R_ARM = /obj/item/bodypart/arm/right/spider,
+		BODY_ZONE_L_LEG = /obj/item/bodypart/leg/left/spider,
+		BODY_ZONE_R_LEG = /obj/item/bodypart/leg/right/spider,
+	)
+
 	var/web_cooldown = 30
 	var/web_ready = TRUE
 	var/spinner_rate = 75
@@ -78,10 +100,56 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 /proc/spider_name()
 	return "[pick(GLOB.spider_first)] [pick(GLOB.spider_last)]"
 
-/datum/species/get_species_lore()
-	return list("A competitive species, evolved to enjoy working, Arachnids make up a small yet rapidly growing space in Nanotrasen’s workforce. \
-	Seen as valued assets due to their hard working tendencies, they are commonly found on stations near independent Arachnid civilizations. \
-	While their males are well integrated into NT's station crews, the females are voracious and dominant, and have willfully resisted integration (with deadly consequences).")
+/datum/species/spider/get_species_description()
+	return "A competitive species, evolved to enjoy working, Arachnids make up a small yet rapidly growing space in Nanotrasen’s workforce. \
+		Seen as valued assets due to their hard working tendencies, they are commonly found on stations near independent Arachnid civilizations."
+
+/datum/species/spider/get_species_lore()
+	return list(
+		"While their males are well integrated into NT's station crews, the females are voracious and dominant, and some have willfully resisted integration (with deadly consequences).",
+		"Arachnnid nests are fiercely hierarchical, and thus Arachnids carefully mind their station and status compared to other Arachnids. Competition is \
+		not only common, but encouraged, as it tends to bring wealth and opportunity to the nest. On the flip side, Arachnids will hunt down and \
+		punish those in their nest who violate their trust, and put the nest in danger.",
+		"The last few decades of Arachnid presence on NT stations has created a fracturing of Arachnid culture, between those who want to integrate completely with human culture,\
+		and those who want to keep to themselves and the old ways. The debate rages hotly and likely won't be resolved without some strong leader to galvanize them one way or the other."
+	)
+
+/datum/species/spider/get_physical_attributes()
+	return "Arachnids have a large spinneret capable of creating webs and cocooning objects (or people). \
+	Their eyes are very sensitive, but have basic night vision capabilities."
+
+/datum/species/spider/create_pref_unique_perks()
+	var/list/to_add = list()
+
+	to_add += list(
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "spider",
+			SPECIES_PERK_NAME = "Web-making Spinneret",
+			SPECIES_PERK_DESC = "Arachnids have a large spinneret that can create webs and cocoon objects (or people!)."
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+            SPECIES_PERK_ICON = "eye",
+            SPECIES_PERK_NAME = "Natural Night-vision",
+			SPECIES_PERK_DESC = "Arachnids have natural night-vision capabilities, though weaker than most technical forms."
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+            SPECIES_PERK_ICON = "lightbulb",
+            SPECIES_PERK_NAME = "Strong Light Sensitivity",
+			SPECIES_PERK_DESC = "Arachnid night vision makes being flashed or blinded a much more painful and dangerous prospect."
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+            SPECIES_PERK_ICON = "bone",
+            SPECIES_PERK_NAME = "Dietary Restrictions (Carnivore)",
+			SPECIES_PERK_DESC = "Arachnids haven't adapted to the diets of the other omnivores on the station, still prefering meat.\
+			What qualifies as edible meat is broader than most however."
+		)
+	)
+
+	return to_add
 
 /datum/species/spider/random_name(gender,unique,lastname)
 	if(unique)
@@ -93,6 +161,13 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 		randname += " [lastname]"
 
 	return randname
+
+/datum/species/spider/proc/damage_weakness(datum/source, list/damage_mods, damage_amount, damagetype, def_zone, sharpness, attack_direction, obj/item/attacking_item)
+	SIGNAL_HANDLER
+
+	if(istype(attacking_item, /obj/item/melee/flyswatter))
+		damage_mods += 10 // Yes, a 10x damage modifier
+
 
 /datum/species/spider/handle_chemical(datum/reagent/chem, mob/living/carbon/human/H)
 	. = ..()
@@ -109,6 +184,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	var/datum/action/innate/spin_cocoon/SC = new
 	SC.Grant(H)
 	SW.Grant(H)
+	RegisterSignal(H, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS, PROC_REF(damage_weakness))
 
 /datum/species/spider/on_species_loss(mob/living/carbon/human/H)
 	. = ..()
@@ -116,6 +192,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	var/datum/action/innate/spin_cocoon/SC = locate(/datum/action/innate/spin_cocoon) in H.actions
 	SC?.Remove(H)
 	SW?.Remove(H)
+	UnregisterSignal(H, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS)
 
 /datum/action/innate/spin_web
     name = "Spin Web"
@@ -150,7 +227,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 	var/nutrition_threshold = NUTRITION_LEVEL_FED
 	if (H.nutrition >= nutrition_threshold)
 		to_chat(H, "<i>You begin spinning some web...</i>")
-		if(!do_after(H, 10 SECONDS, 1, T))
+		if(!do_after(H, 10 SECONDS, T, progress = TRUE))
 			to_chat(H, "<span class='warning'>Your web spinning was interrupted!</span>")
 			return
 		if(prob(75))
@@ -185,7 +262,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 		 (Press ALT+CLICK or MMB on the target to start wrapping.)</span>")
 		H.adjust_nutrition(E.spinner_rate * -0.5)
 		addtimer(VARSET_CALLBACK(E, web_ready, TRUE), E.web_cooldown)
-		RegisterSignal(H, list(COMSIG_MOB_MIDDLECLICKON, COMSIG_MOB_ALTCLICKON), .proc/cocoonAtom)
+		RegisterSignals(H, list(COMSIG_MOB_MIDDLECLICKON, COMSIG_MOB_ALTCLICKON), .proc/cocoonAtom)
 		return
 	else
 		to_chat(H, "<span class='warning'>You're too hungry to spin web right now, eat something first!</span>")
@@ -212,7 +289,7 @@ GLOBAL_LIST_INIT(spider_last, world.file2list("strings/names/spider_last.txt"))
 			to_chat(H, "<span class='warning'>You cannot wrap this.</span>")
 			return
 		H.visible_message("<span class='danger'>[H] starts to wrap [A] into a cocoon!</span>","<span class='warning'>You start to wrap [A] into a cocoon.</span>")
-		if(!do_after(H, 10 SECONDS, 1, A))
+		if(!do_after(H, 10 SECONDS, A, progress = TRUE))
 			to_chat(H, "<span class='warning'>Your web spinning was interrupted!</span>")
 			return
 		H.adjust_nutrition(E.spinner_rate * -3)
